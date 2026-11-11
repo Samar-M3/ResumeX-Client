@@ -1,4 +1,3 @@
-import React from 'react'
 
 function Pricing() {
   return (
@@ -9,3 +8,16 @@ function Pricing() {
 }
 
 export default Pricing
+
+
+
+
+
+
+
+
+
+
+
+
+
