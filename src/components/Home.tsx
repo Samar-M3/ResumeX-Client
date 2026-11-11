@@ -9,7 +9,7 @@ import {
   HiOutlineKey,
 } from "react-icons/hi2";
 import { FiArrowRight, FiCheck } from "react-icons/fi";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 
 function Home() {
   const cards = [

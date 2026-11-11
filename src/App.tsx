@@ -1,11 +1,12 @@
 import Navbar from './components/Navbar'
-import { Route, Routes } from 'react-router'
+
 import Features from './components/Features'
 import HowItWorks from './components/HowItWorks'
 import Pricing from './components/Pricing'
 import Home from './components/Home'
 import Login from './components/Login'
 import Signup from './components/Signup'
+import { Route, Routes } from 'react-router-dom'
 
 function App() {
   return (
@@ -18,7 +19,6 @@ function App() {
       <Route path="/howitworks" element={<HowItWorks/>}/>
       <Route path="/login" element={<Login/>}/>
       <Route path="/signup" element={<Signup/>}/>
-
       </Routes>
     </div>
   )

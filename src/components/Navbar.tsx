@@ -1,5 +1,5 @@
 import Logo from "../assets/logooo.png";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const navItems = [
